@@ -1,0 +1,14 @@
+///////////// 17/02/2024//////////// only one error is comeing lake nonce
+
+
+PS E:\React.nft website\Signing Raw Transactions> node transaction.js
+Using wallet address 0x82e3EeeEA10c3975453fd4617d10766fB7c856eD
+Raw txhash string 0x02f87783aa36a70185012a05f2008504a817c80082520894de0a3ea484843b40ae80b2d5abae571116e3bab6880de0b6b3a764000080c001a051964409e87fedf51c41bdb492769f7fa51285e2249ef7c013e44928641781f6a07e7a7f2a11f9385b78e72e848841b7eac58a79b0d94aec7adf32679ef2bfd6d7
+{
+  jsonrpc: '2.0',
+  id: 1,
+  error: {
+    code: -32000,
+    message: 'nonce too low: next nonce 265, tx nonce 1'
+  }
+}
